@@ -29,12 +29,12 @@ p{
     font-size: 1.4rem;
     margin-top: 5px;
     line-height: 2.5rem;
-    font-weight: 300px;
+    font-weight: bold;
     letter-spacing: .05rem;
 }
 .section-title{
     font-size: 4rem;
-    font-weight: 800rem;
+    font-weight: bold;
     color: black;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -51,6 +51,10 @@ p{
     color: coral;
 }
 /* me section */
+#me h1{
+    color: white;
+    font-weight: bold;
+}
 #me{
     background-image: url(./img/background.jpg);
     background-size: cover;
@@ -176,9 +180,12 @@ p{
     border-radius: 13px;
     background-image: url(./img/newyork.png);
     background-size: cover;
-    margin: 10px 5%;
+    margin: 5px 2%;
     position: relative;
     z-index: 1;
+}
+#services{
+    background-color: rgb(142, 97, 97);
 }
 #services .services-item::after{
     content: '';
@@ -222,6 +229,9 @@ p{
 /* end service section */
 
 /* project section */
+#projects{
+    background-color: rgb(78, 105, 105);
+}
 #projects .projects{
     flex-direction: column;
     max-width: 1200px;
@@ -291,10 +301,19 @@ p{
 #projects .project-item:hover .project-img img{
     transform: scale(1.1);
 }
+#projects .project-header .section-title {
+    transition: .3s ease transform;
+}
+#projects .project-header:hover .section-title{
+    transform: scale(1.1);
+}
 /* end project section */
 
 /* end service section here */
 /* about section */
+#about{
+    background-color: rgb(108, 95, 95);
+}
 #about .about{
     flex-direction: flex;
     text-align: center;
@@ -366,6 +385,9 @@ p{
 /* end about section */
 
 /* contact section */
+#contact{
+    background-color: rgb(109, 79, 43);
+}
 #contact .contact{
     flex-direction: column;
     max-width: 1200px;
@@ -416,8 +438,34 @@ p{
     font-weight: 700;
     line-height: 2rem;
 }
+#contact span p{
+    color: coral;
+}
+#contact:hover p{
+    transform: scale(1.1);
+    font-weight: 800;
+    color: coral;
+}
+#contact p{
+    transition: .3s ease transform;
+    color: black;
+    font-weight: bold;
+}
 /* end contact section here */
-
+/* footer section */
+/* #footer {
+    background-color: rgb(224, 144, 115);
+}
+#footer .brand:hover h1{
+    transform: scale(1.1);
+}
+#footer h1{
+    transition: .3s ease transform;
+}
+#footer p span{
+    color:white;
+} */
+/* end footer sextion */
 
 
 
