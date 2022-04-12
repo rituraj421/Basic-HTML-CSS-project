@@ -183,6 +183,7 @@ p{
     margin: 5px 2%;
     position: relative;
     z-index: 1;
+    box-shadow: 0px 0px 0px 10px rgb(217, 139, 111);
 }
 #services{
     background-color: rgb(142, 97, 97);
@@ -309,7 +310,6 @@ p{
 }
 /* end project section */
 
-/* end service section here */
 /* about section */
 #about{
     background-color: rgb(108, 95, 95);
